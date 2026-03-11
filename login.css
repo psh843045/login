@@ -1,0 +1,50 @@
+body {
+max-width: 768px;
+margin: 0;
+}
+
+.title {
+text-align: center;
+font-size: 2rem;
+font-weight: bold;
+margin: 2rem;
+}
+
+.field {
+    margin: 1.5rem;
+  }
+
+.label {
+    font-size: 1rem;
+    color: #767676;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #DBDBDB;
+    padding: 8px 0;
+    outline: none;
+    text-align: center;
+  }
+
+  button {
+    background-color: #11CC27;
+    border-radius: 2rem;
+    border: none;
+    width: 80%;
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;  
+  }
+
+.login_btn {
+    text-align: center;
+}
+
+.email_text {
+    text-align: center;
+    margin: 1rem;
+    color: #767676;
+  }
