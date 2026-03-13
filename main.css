@@ -1,3 +1,68 @@
 body {
     max-width: 768px;
+    margin: 0;
+}
+
+div {
+    padding: 0.5rem;
+}
+
+.main-title {
+display: flex;
+justify-content: space-between;
+border-bottom : 1px solid #DBDBDB;
+font-weight: bold;
+padding: 0;
+}
+
+.mid {
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 50rem;
+justify-content: center;
+padding-top: 0;
+
+}
+
+.svg-icon {
+    padding-bottom: 0;
+}
+
+.mid-text {
+    color: #767676;
+    padding-top: 0;
+}
+
+button {
+    border-radius: 2rem;
+    border: 0cap;
+    background-color: #11CC27;
+    color: white;
+    padding: 1rem 2.5rem;
+}
+
+.end {
+    display: flex;
+    justify-content: space-around;
+    border-top : 1px solid #DBDBDB;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.end-img {
+    padding: 0;
+}
+
+.end-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.end-font {
+    font-size: 0.5rem;
+    color: #767676;
+    padding: 0;
 }
